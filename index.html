@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Hiten</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="bx bx-home nav__icon"></i>Home
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class="bx bx-user nav__icon"></i>Profile
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class="bx bx-book nav__icon"></i>Education
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class="bx bx-receipt nav__icon"></i>Skills
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#certificates" class="nav__link">
+                                <i class="bx bx-award nav__icon"></i>Certificates
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class="bx bx-link-external nav__icon"></i>References
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="/assets/img/profile-cartoon.jpeg" alt="Profile Picture" class="home__img">
+
+                                <h1 class="home__title">HITEN <b>CHAWDA</b></h1>
+                                <!-- <h3 class="home__profession"><b>Software Engineer ☁️</b></h3> -->
+                                 <div class="home__profession">Software Engineer ☁️</div>
+
+                                <!-- Button to download your CV saved in the pdf folder. Available for mobile-->
+                                 <!-- <div>
+                                    <a download=""  href="assets/pdf/ResumeCv.pdf" class="home__button-mobile">Download</a>
+                                 </div> -->
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <!-- <i class="bx bx-envelope home__icon"></i> hello@hitenchawda.online -->
+                                    <a href="mailto:hello@hitenchawda.online" target="_blank" class="contact__link">
+                                        <i class="bx bx-envelope home__icon"></i> hello@hitenchawda.online
+                                    </a>
+                                </span>
+                                <!-- <span class="home__information">
+                                    <i class="bx bx-phone home__icon"></i> 999-888-777
+                                </span> -->
+                                <span class="home__information">
+                                    <!-- <i class="bx bx-map home__icon"></i> Mumbai, India -->
+                                     <a href="http://maps.google.com/?q=Mumbai" target="_blank" class="contact__link">
+                                        <i class="bx bx-map home__icon"></i> Mumbai, India
+                                     </a>
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+    
+                        <!-- Button to generate and download the pdf. Available for desktop. -->
+                        <!-- <i class="bx bx-download generate-pdf" id="resume-button" title="Generate PDF"></i> -->
+                    </section>          
+                
+                    <!--========== CERTIFICATES ==========-->
+                    <section class="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificates__container bd-grid">
+                            <div class="certificates__content">
+                                <a href="https://www.credly.com/badges/3a0f3638-5ed4-4cc9-9866-0a0192532f0f" target="_blank" class="certificate__link">
+                                    <img src="https://images.credly.com/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" alt="AWS SAA-C03" class="certificate__icon">
+                                </a>
+                                <a href="https://www.credly.com/badges/a21b1e41-9293-4047-a7c6-24c1a7aa4e76" target="_blank" class="certificate__link">
+                                    <img src="https://images.credly.com/size/340x340/images/0bf0f2da-a699-4c82-82e2-56dcf1f2e1c7/image.png" alt="Google Cybersecurity" class="certificate__icon">
+                                </a>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">SOCIAL</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://linkedin.com/in/hitenchawda" target="_blank" class="social__link">
+                                <i class="bx bxl-linkedin-square social__icon"></i> @hitenchawda
+                            </a>
+                            <a href="https://instagram.com/hitennn24" target="_blank" class="social__link">
+                                <i class="bx bxl-instagram social__icon"></i> @hitennn24
+                            </a>
+                            <a href="https://github.com/Hiten24" target="_blank" class="social__link">
+                                <i class="bx bxl-github social__icon"></i> @Hiten24
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <!-- <section class="profile section" id="profile">
+                        <h2 class="section-title">Profile</h2>
+
+                        <p class="profile__description">Experienced Android Developer with a strong background in mobile application development. Skilled in Java and Kotlin programming languages, with in-depth knowledge of the Android SDK and frameworks. Proficient in designing and implementing clean, efficient, and user-centric code, following industry best practices and design patterns.
+
+                        </p>
+                    </section> -->
+                    
+                    <!--========== EDUCATION ==========-->
+                    <!-- <section class="education section" id="education">
+                        <h2 class="section-title">Education</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Cloud Computing</h3>
+                                    <span class="education__studies">AWS</span>
+                                    <span class="education__year">2010 - 2015</span>
+                                </div>
+                            </div>
+                        </div>
+                    </section> -->
+
+
+                    <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Skills</h2>
+
+                        <div class="skills__content bd-grid">
+                            <div class="skills__data">
+                                <span class="skills__tag">AWS</span>
+                                <span class="skills__tag">Andorid</span>
+                                <span class="skills__tag">Git</span>
+                                <span class="skills__tag">Jira</span>
+                                <span class="skills__tag">HTML</span>
+                                <span class="skills__tag">CSS</span>
+                                <span class="skills__tag">JavaScript</span>
+                                <span class="skills__tag">Firebase</span>
+                                <span class="skills__tag">AppWrite</span>
+                                <span class="skills__tag">React</span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> HTML
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> CSS
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Sass
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> JavaScript
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Angular
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Firebase
+                                </li>
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> React
+                                </li>
+                            </ul>
+                        </div> -->
+                    </section>
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experience</h2>
+
+                        <div class="experience__container bd-grid">
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Software Development Engineer</h3>
+                                    <span class="experience__company">From 2022 to 2023<span class="content__separator"></span><b>DIGIBOXX</b></span>
+                                     <ul class="experience__description">
+                                        <li class="experience__pointer">
+                                            Improved app performance by over 25% and Decreased the size of the APK by over 60% by migrating the Java codebase into Kotlin and implementing industry best practices.
+                                        </li>
+                                        <li class="experience__pointer">
+                                            Created and developed Auto-Sync feature for the Images and Videos from scratch.
+                                        </li>
+                                        <li class="experience__pointer">
+                                            Created the file upload feature, maximizing upload speed, while efficiently handling errors and providing robust retry options with WorkManager.
+                                        </li>
+                                        <li class="experience__pointer">
+                                            Completed 25+ two-week sprints and participated in sprint retrospectives and daily standups.
+                                        </li>
+                                        <li class="experience__pointer">
+                                            Owned the entire lifecycle of feature development for application, from design to launch
+                                        </li>
+                                     </ul>
+                                </div>
+                            </div> 
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Android Developer - Intern</h3>
+                                    <span class="experience__company">From 2021 to 2022<span class="content__separator"></span>DIGIBOXX</span>
+                                    
+                                    <ul class="experience__description">
+                                        <li class="experience__pointer">
+                                            Worked with mobile engineer team members to build new features.
+                                        </li>
+                                        <li class="experience__pointer">
+                                            Participated in all stages of development with other team members like the product, design, and development teams.
+                                        </li>
+                                     </ul>
+
+                                </div>
+                            </div>
+
+                            <!-- <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">MOBILE APPLICATION DEVELOPER</h3>
+                                    <span class="experience__company">From 2019 to 2021 | App Tech</span>
+                                    <p class="experience__description"></p>
+                                </div>
+                            </div> -->
+                        </div>
+                    </section>
+
+                    <!--========== PROJECT ==========-->
+                    <section class="project section" id="project">
+                        <h2 class="section-title">Project</h2>
+
+                        <div class="project__container bd-grid">
+                            <div class="project__content">
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">XPENZAVE <span class="content__separator"></span> <a href="https://play.google.com/store/apps/details?id=com.hcapps.xpenzave" target="_blank" class="project__link">Playstore link</a> </h3>
+                                     <ul class="project__description">
+                                        <li class="project__pointer">
+                                            Developed Application from scratch on Jetpack compose.
+                                        </li>
+                                        <li class="project__pointer">
+                                            Used Appwrite for cloud backend
+                                        </li>
+                                        <li class="project__pointer">
+                                            Features like logging expenses with categories, attaching bill images, and setting a monthly budget.
+                                        </li>
+                                     </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="project__content">
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">JOURNAL <span class="content__separator"></span> <a href="https://play.google.com/store/apps/details?id=com.hcapps.journal" target="_blank" class="project__link">Playstore link</a> </h3>
+                                     <ul class="project__description">
+                                        <li class="project__pointer">
+                                            Developed Application from scratch on Jetpack compose.
+                                        </li>
+                                        <li class="project__pointer">
+                                            Used Firebase for cloud backend and storage
+                                        </li>
+                                        <li class="project__pointer">
+                                            Features like daily Journal log, Mood Tracking, Attach photos with Journal note, Filter
+                                        </li>
+                                     </ul>
+                                </div>
+
+                            </div>
+
+                            <div class="project__content">
+                                <div class="project__data bd-grid">
+                                    <h3 class="project__title">PASSWORD MANAGER</h3>
+                                     <ul class="project__description">
+                                        <li class="project__pointer">
+                                            Android app that stores all passwords with advanced encryption and cryptography, and modern UI using MVVM and jetpack Compose
+                                        </li>
+                                     </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </section>
+
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <div class="education__section">
+                            <div class="formal-education">
+                                <h2 class="section-title">Education</h2>
+    
+                                <div class="education__container bd-grid">
+                                    <div class="education__content">
+                                        <div class="education__time">
+                                            <span class="education__rounder"></span>
+                                            <!-- <span class="education__line"></span> -->
+                                        </div>
+    
+                                        <div class="education__data bd-grid">
+                                            <h3 class="education__title">Bsc in Information Technology</h3>
+                                            <span class="education __studies">Mumbai University</span>
+                                            <span class="education__year">2018 - 2021</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="nonformal-education">
+                                <h2 class="section-title">Nonformal Education</h2>
+    
+                                <div class="education__container bd-grid">
+                                    <div class="education__content">
+                                        <div class="education__time">
+                                            <span class="education__rounder"></span>
+                                            <span class="education__line"></span>
+                                        </div>
+        
+                                        <div class="education__data bd-grid">
+                                            <h3 class="education__title">Dicoding - AWS</h3>
+                                            <span class="education__year">April 2024 - June 2024 ( 70 Hours )</span>
+                                            <p class="education__description">Cloud Practitioner Essentials (Belajar Dasar AWS Cloud) | Knowledge refresher on the basics of AWS Online</p>
+                                        </div>
+                                    </div>
+        
+                                    <div class="education__content">
+                                        <div class="education__time">
+                                            <span class="education__rounder"></span>
+                                            <!-- <span class="education__line"></span> -->
+                                        </div>
+        
+                                        <div class="education__data bd-grid">
+                                            <h3 class="education__title">Google Cybersecurity Certificate</h3>
+                                            <span class="education__year">Nov 2023 - Dec 2023 ( 40 Hours )</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!--========== CERTIFICATES ==========-->
+                    <!-- <section class="certificate section" id="certificates">
+                        <h2 class="section-title">Certificates</h2>
+
+                        <div class="certificate__container bd-grid">
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certified for compliance in the work area (2012)</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Certificate of attendance on computer technology.</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+
+                            <div class="certificate__content">
+                                <h3 class="certificate__title">Achievement medal for productivity excellence during the year (2019)</h3>
+                                <p class="certificate__description">For meeting the expectations of leading the team to work the specified tasks in the labor field.</p>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--========== REFERENCES ==========-->
+                    <!-- <section class="references section" id="references">
+                        <h2 class="section__title">References</h2>
+
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Sr. Director</span>
+                                <h3 class="references__title">Mr. Clay Doe</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-777-666</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <span class="references__subtitle">Mag. Developer</span>
+                                <h3 class="references__title">Mr. Robbinson Bass</h3>
+                                <ul class="references__contact">
+                                    <li>Phone: 999-777-666</li>
+                                    <li>Email: user@email.com</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section> -->
+
+                    <!--========== LANGUAGES ==========-->
+                    <section class="languages section">
+                        <h2 class="section-title">Languages</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> English
+                                </li>
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Hindi
+                                </li>
+                                <!-- <li class="languages__name">
+                                    <span class="languages__circle"></span> 
+                                </li> -->
+                            </ul>
+                        </div>
+                    </section>
+                    
+                    <!--========== INTERESTS ==========-->
+                    <!-- <section class="interests section">
+                        <h2 class="section-title">Interests</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class="bx bx-headphone interests__icon"></i>
+                                <span class="interests__name">Music</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bxs-plane-alt interests__icon"></i>
+                                <span class="interests__name">Travel</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-book interests__icon"></i>
+                                <span class="interests__name">Read</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class="bx bx-dumbbell interests__icon"></i>
+                                <span class="interests__name">Fitness</span>
+                            </div>
+                        </div>
+                    </section> -->
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
