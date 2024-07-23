@@ -503,7 +503,6 @@ img {
   padding-top: 1rem;
 }
 
-
 /*========== SKILLS AND LANGUAGES ==========*/
 /* .skills__content, */
 .languages__content {
@@ -621,9 +620,7 @@ img {
 
 .scrolltop__icon {
   font-size: 1.2rem;
-  color: var(--text-color);.nonformal-education {
-    flex: 1;
-  }
+  color: var(--text-color);
 }
 
 .show-scroll {
