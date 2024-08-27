@@ -1,3 +1,20 @@
+// update visitor count code
+const counter = document.querySelector(".visitor-count");
+async function updateVisitCounter() {
+    console.log("running update visior function")
+    console.log("step 1")
+    // let response = await fetch("https://a7txanei7ownyo7gm7ix6boylq0yonmy.lambda-url.us-east-1.on.aws/")
+    console.log("step 2")
+    console.log("step 3")
+    let data = await response.json()
+    console.log("step 4")
+    counter.innerHTML = `🔍 <b> ${data} viewers </b> have visited the site.`
+    console.log("step 5")
+}
+
+updateVisitCounter();
+
+
 /*==================== SHOW MENU ====================*/
 const showMenu = (toggleId, navId) =>{
     const toggle = document.getElementById(toggleId),
