@@ -1,3 +1,3 @@
-# cloud-resume-challenge-draft
-This is the timeline repository of the challenge Cloud Resume
+# Static-Resume-Site
+This is the timeline repository of the Static Resume Site
 
